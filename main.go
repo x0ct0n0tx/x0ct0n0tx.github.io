@@ -1,4 +1,12 @@
 // Packages
+package main
+
+import {
+    "math"
+    "math/rand"
+    "syscall/js"  //javascript package for WebAssembly
+}
+
 
 // Game pane
 

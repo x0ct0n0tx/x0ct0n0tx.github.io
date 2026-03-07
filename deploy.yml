@@ -1,2 +1,21 @@
 name: Go Pongo
 
+on:
+    push:
+        branches: [main]
+    workflow_dispatch:
+
+# OpenID Connect
+permissions:
+    contents: read
+    pages: write
+    id-token: write
+
+# Single deployment
+concurrency:
+    group: pages
+    cancel-in-progress: false
+
+    # Go -> WebAssembly for js/wasm
+
+    # Upload to pages
