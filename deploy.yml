@@ -16,6 +16,8 @@ concurrency:
     group: pages
     cancel-in-progress: false
 
+    with:
+        go-version: "1.24"
     # Go -> WebAssembly for js/wasm
 
     # Upload to pages
