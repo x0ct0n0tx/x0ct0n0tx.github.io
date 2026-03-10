@@ -7,7 +7,7 @@ Trying out making a pong game in Go as a small portfolio piece.
 
 ## What does it need?
 
-##Local test
+## Local test
 Run in shell:
 
 GOOS=js GOARCH=wasm go build -o main.wasm .
